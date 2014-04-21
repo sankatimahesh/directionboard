@@ -76,7 +76,7 @@
 - (IBAction)directionAction:(UIButton *)sender
 {
 	if(sender.tag == 1){
-	[[[UIAlertView alloc]initWithTitle:@"WOW..." message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil]show];
+	[[[UIAlertView alloc]initWithTitle:@"DirectionBoard" message:@"WOW..." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil]show];
 	}
 }
 
