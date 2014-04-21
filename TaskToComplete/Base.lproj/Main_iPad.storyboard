@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="direction_board" translatesAutoresizingMaskIntoConstraints="NO" id="oKi-Q7-9Kb">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlT-tr-k45" userLabel="FoodCourtBtn">
+                                <rect key="frame" x="419" y="557" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rLZ-pj-FLf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywx-nl-QvD" userLabel="AtmBtn">
+                                <rect key="frame" x="419" y="573" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQ4-U6-OOh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIz-eb-Qx5" userLabel="GroceryStoreBtn">
+                                <rect key="frame" x="419" y="635" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="epp-aV-GXX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wc-t7-Bh1" userLabel="UnknownBtn">
+                                <rect key="frame" x="419" y="651" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ruh-gH-fA0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ID-uu-FqI" userLabel="GiftShopBtn">
+                                <rect key="frame" x="419" y="667" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gu7-0C-IJF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrN-Wf-czv" userLabel="CookerBtn">
+                                <rect key="frame" x="419" y="683" width="125" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fRA-uu-HlM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oKi-Q7-9Kb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6kp-zB-qb7"/>
+                            <constraint firstAttribute="trailing" secondItem="oKi-Q7-9Kb" secondAttribute="trailing" id="Dft-Tp-zHJ"/>
+                            <constraint firstAttribute="bottom" secondItem="oKi-Q7-9Kb" secondAttribute="bottom" id="Qnt-U7-L2N"/>
+                            <constraint firstAttribute="centerY" secondItem="oKi-Q7-9Kb" secondAttribute="centerY" id="gW5-TW-ccm"/>
+                            <constraint firstAttribute="width" secondItem="oKi-Q7-9Kb" secondAttribute="width" id="plK-rt-AIj"/>
+                            <constraint firstAttribute="height" secondItem="oKi-Q7-9Kb" secondAttribute="height" id="rL2-oM-2D8"/>
+                            <constraint firstItem="oKi-Q7-9Kb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tUf-Qx-Nxm"/>
+                            <constraint firstAttribute="centerX" secondItem="oKi-Q7-9Kb" secondAttribute="centerX" id="vme-TC-J06"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="atmBtn" destination="ywx-nl-QvD" id="HRH-g0-VXV"/>
+                        <outlet property="cookerBtn" destination="vrN-Wf-czv" id="0ef-vx-v5E"/>
+                        <outlet property="foodCourtBtn" destination="qlT-tr-k45" id="Cqg-NQ-Ws2"/>
+                        <outlet property="giftShopBtn" destination="0ID-uu-FqI" id="zpF-lf-X9X"/>
+                        <outlet property="groceryStoreBtn" destination="oIz-eb-Qx5" id="a24-HC-y0J"/>
+                        <outlet property="unknownBtn" destination="5wc-t7-Bh1" id="abq-fd-Ahw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="direction_board" width="744" height="493"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

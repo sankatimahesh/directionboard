@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="direction_board" translatesAutoresizingMaskIntoConstraints="NO" id="dNe-fk-FNe">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTx-j6-afd">
+                                <rect key="frame" x="196" y="241" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NRG-UJ-KRW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvK-Hn-Lgl">
+                                <rect key="frame" x="196" y="248" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lrw-RW-EHv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZl-et-pyt">
+                                <rect key="frame" x="196" y="282" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="paB-QW-Tik"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSV-fZ-BhO">
+                                <rect key="frame" x="196" y="289" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d8g-Ua-C9C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdX-8V-mJ9">
+                                <rect key="frame" x="196" y="296" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xHU-1P-zEP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7a-Od-1HQ">
+                                <rect key="frame" x="196" y="303" width="58" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="directionAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3bD-zC-5ve"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dNe-fk-FNe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="A7x-MU-o84"/>
+                            <constraint firstItem="dNe-fk-FNe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="GYN-Za-p9e"/>
+                            <constraint firstAttribute="bottom" secondItem="dNe-fk-FNe" secondAttribute="bottom" id="Kfa-ZZ-zdl"/>
+                            <constraint firstAttribute="centerX" secondItem="dNe-fk-FNe" secondAttribute="centerX" id="P2J-Q7-AwI"/>
+                            <constraint firstAttribute="trailing" secondItem="dNe-fk-FNe" secondAttribute="trailing" id="YJS-Iu-Kcu"/>
+                            <constraint firstItem="dNe-fk-FNe" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" id="gjC-AM-9mG"/>
+                            <constraint firstAttribute="centerY" secondItem="dNe-fk-FNe" secondAttribute="centerY" id="tvt-hE-Cq8"/>
+                            <constraint firstItem="dNe-fk-FNe" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="wKG-sm-Lrt"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="atmBtn" destination="ZvK-Hn-Lgl" id="PYG-ox-FLq"/>
+                        <outlet property="cookerBtn" destination="e7a-Od-1HQ" id="R80-zA-0xj"/>
+                        <outlet property="foodCourtBtn" destination="XTx-j6-afd" id="9FW-fw-AWk"/>
+                        <outlet property="giftShopBtn" destination="KdX-8V-mJ9" id="eFh-UY-Mbp"/>
+                        <outlet property="groceryStoreBtn" destination="jZl-et-pyt" id="Mj8-s0-WCz"/>
+                        <outlet property="unknownBtn" destination="xSV-fZ-BhO" id="lg1-rk-ohf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="direction_board" width="744" height="493"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
